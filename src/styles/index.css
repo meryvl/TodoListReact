@@ -1,12 +1,55 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/278/160/small/polygon-geometric-design-abstract-technology-concept-abstract-blue-light-background-vector.jpg");
+  }
+  ul{
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    border: solid 0 1px 1px 1px;
+    background-color: blue;
+    padding-bottom: 10px;
+    border-radius: 0 0 5px 5px ;
 
-*/
+  }
+  h2{
+    margin-top: 5%;
+    text-align: center;
+  }
+  .header {
+    position: relative;
+    top: 7PX;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: #07090b;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    background: radial-gradient(red, blue);
+  }
+  
+  ul li {
+   border-radius: 10%;
+   padding: 8px;
+    list-style: none;
+    background-color: white;
+   border-radius: 3px;
+    border-color: #07090b;
+    border-bottom: solid 1px;
+    width: 87%;
+   
+  }
+  
+  
+  
+  input {
+  margin: 3%;
+  padding: 5px;
+  border-radius: 5px;
+  width:70%;
+    font-size: 16px;
+  }
+  button{
+    padding: 4px;
+  border:none ;
+  border-radius: 3px;
+  }
+  
+  
+  
